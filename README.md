@@ -1,6 +1,11 @@
 # weaklang
 Compiler for weaklang.  A language inspired by PL/0 and used for compiler development practice.
 
+## Structure
+Flex is used as Lexer.
+Bison is used for Parsing.
+LLVM is used for Object Code Generation.
+
 ## Example Program
 ```
 const a = 1, b = 1;
