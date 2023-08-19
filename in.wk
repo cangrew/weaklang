@@ -1,0 +1,7 @@
+const a = 1, b = 1;
+var x,y,z;
+def main {
+    y = 1;
+    if y == 1 then
+        print(y);
+}

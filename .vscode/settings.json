@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "cjson.h": "c",
+        "initialization.h": "c",
+        "core.h": "c",
+        "executionengine.h": "c",
+        "irreader.h": "c",
+        "random": "c",
+        "array": "c",
+        "memory": "c",
+        "functional": "c",
+        "tuple": "c",
+        "utility": "c",
+        "llvmcodegen.h": "c",
+        "weaklang.tab.h": "c"
+    }
+}

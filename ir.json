@@ -1,0 +1,58 @@
+{
+	"type":	"PROGRAM",
+	"body":	[{
+			"type":	"CONST_DEC",
+			"dec":	[{
+					"type":	"CONST",
+					"ident":	"a",
+					"value":	1
+				}, {
+					"type":	"CONST",
+					"ident":	"b",
+					"value":	1
+				}]
+		}, {
+			"type":	"VAR_DEC",
+			"dec":	[{
+					"type":	"VAR",
+					"ident":	"x"
+				}, {
+					"type":	"VAR",
+					"ident":	"y"
+				}, {
+					"type":	"VAR",
+					"ident":	"z"
+				}]
+		}, {
+			"type":	"MAIN",
+			"block":	[{
+					"type":	"ASSIGN",
+					"ident":	"y",
+					"expr":	{
+						"type":	"INT",
+						"value":	1
+					}
+				}, {
+					"type":	"IF",
+					"condition":	{
+						"type":	"CONDITION",
+						"rel-op":	261,
+						"left":	{
+							"type":	"VAR",
+							"ident":	"y"
+						},
+						"right":	{
+							"type":	"INT",
+							"value":	1
+						}
+					},
+					"stmt":	{
+						"type":	"PRINT",
+						"expr":	{
+							"type":	"VAR",
+							"ident":	"y"
+						}
+					}
+				}]
+		}]
+}

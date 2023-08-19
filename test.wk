@@ -1,0 +1,8 @@
+const a = 1, b = 1;
+var x, y;
+main {
+    x = 1;
+    y = a, b, x;
+    print(y);
+    print(a);
+}
